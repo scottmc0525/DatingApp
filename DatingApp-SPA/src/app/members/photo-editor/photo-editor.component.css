@@ -4,11 +4,27 @@
     margin-bottom: 2px;
 }
 
-.my-drop-zone { border: dotted 3px lightgray; }
+.my-drop-zone { 
+    border: dotted 3px lightgray; 
+}
+
 .nv-file-over { 
     border: dotted 3px red; 
 } 
 
 input[type=file] {
     color: transparent;
+}
+
+.not-approved {
+    opacity: 0.2;
+}
+
+.img-wrapper {
+    position: relative;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 30%;
 }
